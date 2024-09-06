@@ -1,0 +1,24 @@
+td{
+    text-align: center;
+}
+/* media quires for different font size */
+@media only screen and (max-width: 450px){
+    th,button,td{
+        font-size: 0.6rem;
+    }
+}
+@media (min-width:451px) and (max-width: 767px){
+    th,td{
+        font-size: 0.8rem;
+    }
+}
+@media (min-width:768px) and (max-width: 1280px) {
+    th,td{
+        font-size: 0.9rem;
+    }
+}
+@media only screen and (min-width: 1281px) {
+    th,td{
+        font-size: 0.9rem;
+    }
+}
